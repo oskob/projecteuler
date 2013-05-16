@@ -10,10 +10,9 @@ for num in nums:
 	while cur < limit:
 		used = False
 		for tNum in nums:
-			if tNum < num:
-				if cur/tNum == cur//tNum:
-					used = True
-					break;
+			if tNum < num and cur/tNum == cur//tNum:
+				used = True
+				break;
 		if not used:
 			numSum += cur
 		cur += num
