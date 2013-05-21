@@ -18,11 +18,6 @@ int main()
 		{
 			top = sum;
 		}
-
 	}
-
 	printf("Answer: %i", top);
-
-	
-
 }
